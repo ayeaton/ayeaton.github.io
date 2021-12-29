@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" src="main.css" type="text/css">
+<title>Anna Yeaton</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+  
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+  
+.header h1 {
+    font-size: 40px;
+}
+  
+.column {
+    float: left;
+    padding: 10px;
+}
+  
+.left {
+    width: 15%;
+}
+  
+.right {
+    width: 40%;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+  
+li + li {
+    margin-top: 10px;
+}
+
+
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="column left" >
+      <h2>Anna Yeaton</h2>
+      <img src="Anna_photo.JPG" alt="Italian Trulli">
+    </div>
+    <div class="column right">
+      <br><br><br>
+      <p> I am a computational biology PhD student at NYU who is close to defending!
+        During my PhD, I was interested in single-cell RNAseq anlysis and
+        applications of deep learning to histopathology images. My interests are now 
+        shifting towards Bayesian statistics, geospatial analysis, and graphs. </p>
+      <br>
+      <a href="YEATON_CV_2021_.pdf">CV</a>
+      <br>
+      <a href="https://github.com/ayeaton">Github</a>
+      <br>
+      <a href="https://twitter.com/AnnaYeaton">Twitter</a>
+      <br>
+      <a href="https://www.linkedin.com/in/annayeaton/">LinkedIn</a>
+      <br>
+      <br>
+      <a href="https://www.linkedin.com/in/annayeaton/">Teaching Material</a>
+    </div>
+  </div>
+
+  <h2>Publications</h2>
+
+  <ul style="list-style-type:none;">
+    <li><b>Yeaton</b> et al., Dissecting the mechanisms of hematological malignancy driven by TET2 mutation. 
+      (in review).</li>
+    <li><b>Yeaton</b> et al., Hierarchical Optimal Transport for Comparing Histopathology Datasets.
+       (in review) </li>
+    <li>Quiros, A C, Coudray, N, <b>Yeaton</b>, A, Sunheim, W, Murray-Smith, R, Tsirigos, A, Yuan, 
+      K, Adversarial learning of cancer tissue representations. MICCAI. 2021. 
+      <a href="https://arxiv.org/pdf/2108.02223.pdf">link to paper</a></li>
+    <li>Wang E, Zhou H, Nadorp B, Cayanan G, Chen X, <b>Yeaton</b> AH, Nomikou S, 
+      Witkowski MT, Narang S, Kloetgen A, Thandapani P, Ravn-Boess N, Tsirigos A, 
+      Aifantis I. Surface antigen-guided CRISPR screens identify regulators of myeloid leukemia differentiation. 
+      Cell Stem Cell. 2021. <a href="https://doi.org/10.1016/j.stem.2020.12.005">link to paper</a></li></li>
+  </ul>  
+</body>
+</html>
